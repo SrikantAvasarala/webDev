@@ -1,0 +1,7 @@
+<h1>hello {{ name }} world of web dev from templates!</h1>
+
+{% if name|lower == 'srikant' %}
+	stud boy {{ name }}
+{% else %}
+	Hello, stranger!
+{% endif %}
